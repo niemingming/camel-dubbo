@@ -12,3 +12,8 @@ JdkCompiler，dubbo自带的动态编译类，也可以自己写动态编译
 double/int/long/float/boolean/byte/char/Double/Integer/Long/Float/Boolean/Byte/Char/Date/String/List/Map
 
 
+RouteContainer:用于路由创建和转换
+
+DefaultInProcessor：用于入参转换
+
+ExceptionProcessor：用于异常处理，所有的出参都是用JSON
