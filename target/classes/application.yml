@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: dubbo2http
+  profiles:
+    active: dev
+
+server:
+  port: 8000
+mybatis-plus:
+  mapper-locations: classpath:mapper/*Mapper.xml
